@@ -1,0 +1,161 @@
+ /* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0b0b0b;
+    color: #faf7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #ff0066, #ffcc00);
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Hero section styles */
+.hero {
+    background: linear-gradient(135deg, #6d5dfc, #ff0066);
+    text-align: center;
+    padding: 4rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero button {
+    background-color: #ffcc00;
+    border: none;
+    color: #0d0d0d;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #e6b800;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #ffcc00;
+    margin-bottom: 1rem;
+}
+
+.game-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    background: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.game-card h3 {
+    color: #ffcc00;
+    margin-bottom: 0.5rem;
+}
+
+.game-card p {
+    color: #b3b3b3;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background: #444;
+    color: #fff;
+}
+
+form button {
+    background-color: #ffcc00;
+    border: none;
+    color: #0d0d0d;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #e6b800;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+}
